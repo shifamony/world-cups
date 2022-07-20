@@ -265,3 +265,70 @@ section.sec-2 {
     color: #4d4d4d;
 }
 /*====================== BLOG SECTION STYLE END =================*/
+.btn-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+    display: none;
+}
+.btn-1 {
+    background: #dd0000;
+    padding: 16px 21px;
+    text-decoration: none;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.46px;
+    text-align: center;
+    align-items: center;
+}
+/*====================== INVISIBLE BUTTON SECTION STYLE END =================*/
+footer {
+    text-align: center;
+    background: #000;
+}
+footer h2 {
+    color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 60px;
+}
+footer hr {
+    border-color: rgba(255, 255, 255, 0.1);
+    margin: 40px 0;
+}
+footer .footer-info {
+}
+footer .footer-info a {
+    text-decoration: none;
+    color: #b9b9b9;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px 27px;
+    text-transform: capitalize;
+}
+footer .footer-info a:hover {
+}
+
+footer .social-box {
+    padding-top: 30px;
+}
+footer .social-box a {
+    color: #fff;
+    margin: 15px;
+    transition: all 0.5s ease;
+}
+footer .social-box a:hover {
+    color: #146ebe;
+}
+
+/*====================== FOOTE STYLE END =================*/
