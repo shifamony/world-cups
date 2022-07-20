@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 16px;
+    line-height: 150%;
+    overflow-x: hidden;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+.paddings {
+    padding: 100px 0;
+}
+img {
+    width: 100%;
+}
+
+/*====================== GLOBAL CSS =================*/
+header {
+    height: 100vh;
+    margin-top: 50px;
+}
+header .hero-bg {
+    background: #000;
+    padding: 40px 60px 0px 60px;
+    border-radius: 30px;
+}
+header .hero-section-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+}
+header .hero-section-wrap .left-text {
+}
+header .hero-section-wrap .left-text h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 3.75em;
+    font-weight: 700;
+    line-height: 80px;
+    color: #fff;
+}
+header .hero-section-wrap .left-text p {
+    font-family: "Poppins", sans-serif;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 26px;
+    color: #fff;
+    margin: 20px 0 30px;
+}
+
+header .hero-section-wrap .left-text a {
+    background: #dd0000;
+    padding: 16px 21px;
+    text-decoration: none;
+    width: 187px;
+    height: 56px;
+    border-radius: 5px;
+    color: #fff;
+    display: block;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 23.46px;
+    text-align: center;
+    transition: all 0.5s ease;
+    animation: pulse_01 2s ease infinite;
+}
+header .hero-section-wrap .left-text a:hover {
+    animation: none;
+    box-shadow: 5px 5px 10px gray;
+}
+@keyframes pulse_01 {
+    0% {
+        transform: scale(0.94);
+        box-shadow: 0 0 0 0 rgba(238, 220, 229, 0.68);
+    }
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 12px rgba(235, 221, 228, 0);
+    }
+    100% {
+        transform: scale(0.94);
+        box-shadow: 0 0 0 0 rgba(163, 81, 123, 0.68);
+    }
+}
+header .hero-section-wrap .left-text a:hover {
+}
+header .hero-section-wrap .left-text a i {
+    margin-left: 10px;
+}
+header .hero-section-wrap .right-img {
+}
+header .hero-section-wrap .right-img img {
+    width: 581px;
+    height: 613px;
+    vertical-align: middle;
+    animation: bounceTop_1 3s ease infinite;
+}
+@keyframes bounceTop_1 {
+    0%,
+    100% {
+        transform: translateY(-30px);
+    }
+    50% {
+        transform: translateY(0px);
+    }
+}
+
+/*====================== HERO SECTION STYLE END =================*/
