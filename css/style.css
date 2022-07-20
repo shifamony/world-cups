@@ -111,3 +111,157 @@ header .hero-section-wrap .right-img img {
 }
 
 /*====================== HERO SECTION STYLE END =================*/
+section.sec-2 {
+    position: relative;
+    width: 100%;
+}
+.sec-2 .flexible {
+    display: flex;
+}
+.width-1 {
+    width: 25.5%;
+    height: 312px;
+}
+.width-2 {
+    width: 70%;
+}
+.sec-2 .sidebar {
+    background: black;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.sec-2 .sidebar ul {
+    align-items: center;
+    list-style-type: none;
+    text-align: center;
+}
+.sec-2 .sidebar ul li {
+    margin-top: 30px;
+}
+.sec-2 .sidebar ul li a {
+    color: #161616;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 253px;
+    height: 64px;
+    background: #fff;
+    border-radius: 5px;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-top: 16px;
+    transition: all 0.5s;
+}
+.sec-2 .sidebar ul li a.active-1 {
+    background: #dd0000;
+    color: #fff;
+    transition: all 0.5s;
+}
+.sec-2 .sidebar ul li a:hover,
+.sec-2 .sidebar ul li a.active-1:hover {
+    background: linear-gradient(to right, #dd0000, #20a30d);
+    color: #fff;
+}
+
+/*====================== LEFT SIDEBER STYLE END =================*/
+.sec-2 {
+    padding-bottom: 80px;
+    /* display: flex;
+    align-items: center;
+    justify-content: center;*/
+}
+.sec-2 .right-blogs-wrap {
+    display: grid;
+    grid-template-columns: 279px 279px 279px;
+    gap: 20px;
+}
+.sec-2 .right-blogs-wrap .blog-box {
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    transition: all 0.5s ease;
+}
+.sec-2 .right-blogs-wrap .blog-box:hover {
+    box-shadow: 5px 5px 10px gray;
+    transform: translateY(-20px);
+}
+.sec-2 .right-blogs-wrap .blog-box img {
+    width: 101%;
+}
+.sec-2 .right-blogs-wrap .blog-box .blog-info {
+    padding: 15px;
+}
+.sec-2 .right-blogs-wrap .blog-box .blog-info a {
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    color: #161616;
+    border: 1px solid #161616;
+    text-decoration: none;
+    padding: 3px 18px;
+    display: inline-block;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.sec-2 .right-blogs-wrap .blog-box .blog-info h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 27px;
+}
+.sec-2 .right-blogs-wrap .blog-box .blog-info .hours-wrap {
+    display: flex;
+    margin-top: 20px;
+}
+.sec-2 .right-blogs-wrap .blog-box .blog-info .hours-wrap .time-wrap,
+.sec-2 .right-blogs-wrap .blog-box .blog-info .chat-wrap {
+    margin-right: 20px;
+}
+.sec-2 .right-blogs-wrap .blog-box .blog-info .hours-wrap .time-wrap span img,
+.sec-2 .right-blogs-wrap .blog-box .blog-info .chat-wrap span img {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+.sec-2 .right-blogs-wrap .blog-box .blog-info .time-wrap span,
+.sec-2 .right-blogs-wrap .blog-box .blog-info .chat-wrap span {
+    margin-left: 5px;
+    color: gray;
+}
+/*====================== SECTION-2 STYLE END =================*/
+.blog-pdg {
+    padding: 0 20px;
+    height: 230px;
+}
+.blog-pdg .img-box {
+    display: flex;
+    align-items: center;
+    margin: 30px 0 20px 0;
+}
+
+.blog-pdg .img-box img {
+    width: 94px;
+    height: 55px;
+}
+.blog-pdg .img-box span {
+    padding: 0 10px;
+}
+.blog-pdg .blog-info .blog-title {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    color: #161616;
+}
+.blog-pdg .blog-info .blog-para {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19.72px;
+    text-align: center;
+    color: #4d4d4d;
+}
+/*====================== BLOG SECTION STYLE END =================*/
